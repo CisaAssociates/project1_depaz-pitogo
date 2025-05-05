@@ -1,8 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "attendance_system");
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include('config.php');
 
 $logs = [];
 $userInfo = null;
