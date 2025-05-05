@@ -1,6 +1,7 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "attendance_system");
+
+include "config.php";
 
 if (!isset($_SESSION['user']) || !in_array($_SESSION['role'], ['admin', 'staff'])) {
     header("Location: login.php");
