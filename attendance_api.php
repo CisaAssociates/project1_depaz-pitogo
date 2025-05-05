@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$db = 'attendance_system';
-$user = 'root';
-$pass = '';
+$db = 'u347279731_depaz_pitogodb';
+$user = 'u347279731_depaz_pitogo';
+$pass = 'DepazPitogo2025';
 
 try {
     // Create PDO instance
