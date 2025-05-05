@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "attendance_system");
+include('config.php');
 
 // Check if user is logged in and has the correct role
 if (!isset($_SESSION['user']) || !in_array($_SESSION['role'], ['admin', 'staff'])) {
