@@ -8,9 +8,9 @@ ini_set('display_errors', 1);
 
 // MySQL connection settings
 $host = 'localhost';
-$user = 'root';
-$password = '';
-$dbname = 'attendance_system';
+$user = 'u347279731_depaz_pitogo';
+$password = 'DepazPitogo2025';
+$dbname = 'u347279731_depaz_pitogodb';
 
 // Connect to MySQL database
 function get_db_connection() {
